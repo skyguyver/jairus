@@ -1,0 +1,1 @@
+docker run -v /dev_path/development/docker/odoo10/jairus/trunk:/mnt/extra-addons -p 8070:8069 --name jairus --link postgres:db -it odoo
